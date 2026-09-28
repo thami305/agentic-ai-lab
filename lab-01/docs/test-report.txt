@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /home/hatch/workspace/goals/start-a-consulting-business/agentic-ai-lab/lab-01/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/hatch/workspace/goals/start-a-consulting-business/agentic-ai-lab/lab-01
+collecting ... collected 20 items
+
+tests/test_lab01.py::test_01_weighted_pipeline_acme PASSED               [  5%]
+tests/test_lab01.py::test_02_win_rate_overall PASSED                     [ 10%]
+tests/test_lab01.py::test_03_avg_deal_size_globex PASSED                 [ 15%]
+tests/test_lab01.py::test_04_total_pipeline_all_clients PASSED           [ 20%]
+tests/test_lab01.py::test_05_multi_step_client_then_metric PASSED        [ 25%]
+tests/test_lab01.py::test_06_stage_filter_then_metric PASSED             [ 30%]
+tests/test_lab01.py::test_07_malformed_arguments_rejected_before_execution PASSED [ 35%]
+tests/test_lab01.py::test_08_unknown_tool_never_executes PASSED          [ 40%]
+tests/test_lab01.py::test_09_unknown_client_id_is_a_safe_domain_error PASSED [ 45%]
+tests/test_lab01.py::test_10_empty_result_is_graceful PASSED             [ 50%]
+tests/test_lab01.py::test_11_tool_timeout_retries_then_safe_error PASSED [ 55%]
+tests/test_lab01.py::test_12_duplicate_calls_are_cached PASSED           [ 60%]
+tests/test_lab01.py::test_13_irrelevant_request_is_declined PASSED       [ 65%]
+tests/test_lab01.py::test_14_prompt_injection_in_data_is_ignored PASSED  [ 70%]
+tests/test_lab01.py::test_15_max_turns_bounds_a_chatty_model PASSED      [ 75%]
+tests/test_lab01.py::test_16_invalid_final_answer_is_rejected PASSED     [ 80%]
+tests/test_lab01.py::test_17_retry_succeeds_on_second_attempt PASSED     [ 85%]
+tests/test_lab01.py::test_18_metric_with_stage_filter PASSED             [ 90%]
+tests/test_lab01.py::test_19_output_contract_holds PASSED                [ 95%]
+tests/test_lab01.py::test_20_token_and_latency_totals_captured PASSED    [100%]
+
+============================== 20 passed in 1.08s ==============================
