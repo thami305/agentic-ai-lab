@@ -1,0 +1,3 @@
+# runtime artifacts (created by the server, never committed)
+jobs.json
+server.log.jsonl

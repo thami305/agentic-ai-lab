@@ -1,0 +1,34 @@
+{
+  "case_id": "m01",
+  "spans": [
+    {
+      "span": "model",
+      "name": "OracleStub",
+      "latency_ms": 0.007,
+      "tokens": 1100,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "search_docs",
+      "latency_ms": 0.072,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "OracleStub",
+      "latency_ms": 0.014,
+      "tokens": 1100,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "agent_run",
+    "search_docs",
+    "declined"
+  ]
+}

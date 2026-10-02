@@ -1,0 +1,52 @@
+{
+  "case_id": "t03",
+  "spans": [
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.007,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "search_docs",
+      "latency_ms": 0.053,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.007,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.004,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.004,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "agent_run",
+    "search_docs",
+    "search_docs",
+    "search_docs",
+    "error"
+  ]
+}

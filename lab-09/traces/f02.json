@@ -1,0 +1,17 @@
+{
+  "case_id": "f02",
+  "spans": [
+    {
+      "span": "model",
+      "name": "PromptOnlyStub",
+      "latency_ms": 0.03,
+      "tokens": 700,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "agent_run",
+    "error"
+  ]
+}

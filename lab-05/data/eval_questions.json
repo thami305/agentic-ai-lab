@@ -1,0 +1,260 @@
+[
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are tracked in the Wexford",
+      "doc_id": "HR-PTO-01"
+    },
+    "qid": "q01",
+    "question": "What does the HR PTO policy state about wexford, accruing, anything, balances, begin?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are published in the Voucher",
+      "doc_id": "HR-EXP-02"
+    },
+    "qid": "q02",
+    "question": "What does the HR expense policy state about voucher, 220, 150, bulletin, clarifications?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "is maintained in the Beacon",
+      "doc_id": "HR-DATA-03"
+    },
+    "qid": "q03",
+    "question": "What does the HR data retention policy state about beacon, father, grandfather, son, archives?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are stored in the Ozone",
+      "doc_id": "HR-INC-04"
+    },
+    "qid": "q04",
+    "question": "What does the HR incident response policy state about ozone, automatically, cause, escalate, executive?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are documented in the Summit",
+      "doc_id": "HR-REM-05"
+    },
+    "qid": "q05",
+    "question": "What does the HR remote work policy state about summit, assessments, documented, ergonomic, expected?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are logged in the Meridian",
+      "doc_id": "HR-PROC-06"
+    },
+    "qid": "q06",
+    "question": "What does the HR procurement policy state about meridian, bypass, emergency, filing, invoice?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "in the Springboard portal. Orientation",
+      "doc_id": "HR-ONB-07"
+    },
+    "qid": "q07",
+    "question": "What does the HR onboarding policy state about springboard, assigned, completed, covering, culture?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "guidance lives in the Citadel",
+      "doc_id": "HR-PWD-08"
+    },
+    "qid": "q08",
+    "question": "What does the HR password policy state about citadel, banned, deprecated, admin, codes?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are tracked in the Zephyr",
+      "doc_id": "FIN-PTO-01"
+    },
+    "qid": "q09",
+    "question": "What does the Finance PTO policy state about zephyr, accrued, addition, approves, auto?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are published in the Tally",
+      "doc_id": "FIN-EXP-02"
+    },
+    "qid": "q10",
+    "question": "What does the Finance expense policy state about tally, 7500, bulletin, card, clarifications?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "is maintained in the Atlas",
+      "doc_id": "FIN-DATA-03"
+    },
+    "qid": "q11",
+    "question": "What does the Finance data retention policy state about atlas, archives, audit, automatic, cold?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are stored in the Pyre",
+      "doc_id": "FIN-INC-04"
+    },
+    "qid": "q12",
+    "question": "What does the Finance incident response policy state about pyre, automatically, cause, closure, engineer?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are documented in the Harbor",
+      "doc_id": "FIN-REM-05"
+    },
+    "qid": "q13",
+    "question": "What does the Finance remote work policy state about harbor, documented, expected, fewer, handbook?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are logged in the Lodestar",
+      "doc_id": "FIN-PROC-06"
+    },
+    "qid": "q14",
+    "question": "What does the Finance procurement policy state about lodestar, once, 100000, annually, conflict?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "(4 total) must finish in",
+      "doc_id": "FIN-ONB-07"
+    },
+    "qid": "q15",
+    "question": "What does the Finance onboarding policy state about gateway, average, background, check, checks?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "guidance lives in the Sentinel",
+      "doc_id": "FIN-PWD-08"
+    },
+    "qid": "q16",
+    "question": "What does the Finance password policy state about sentinel, permitted, admin, codes, consoles?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are tracked in the Vantage",
+      "doc_id": "IT-PTO-01"
+    },
+    "qid": "q17",
+    "question": "What does the IT PTO policy state about vantage, 2.0, annual, approves, auto?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are published in the Tender",
+      "doc_id": "IT-EXP-02"
+    },
+    "qid": "q18",
+    "question": "What does the IT expense policy state about tender, 500, bulletin, clarifications, client?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "is maintained in the Drift",
+      "doc_id": "IT-DATA-03"
+    },
+    "qid": "q19",
+    "question": "What does the IT data retention policy state about drift, affected, anonymized, custodians, encryption?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are stored in the Halcyon",
+      "doc_id": "IT-INC-04"
+    },
+    "qid": "q20",
+    "question": "What does the IT incident response policy state about halcyon, commanders, drawn, engineer, executive?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are documented in the Northstar",
+      "doc_id": "IT-REM-05"
+    },
+    "qid": "q21",
+    "question": "What does the IT remote work policy state about northstar, 300, approved, countries, coworking?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are logged in the Northgate",
+      "doc_id": "IT-PROC-06"
+    },
+    "qid": "q22",
+    "question": "What does the IT procurement policy state about northgate, 100000, cards, contracts, engagements?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "is tracked in the Prelude",
+      "doc_id": "IT-ONB-07"
+    },
+    "qid": "q23",
+    "question": "What does the IT onboarding policy state about prelude, covering, culture, offer, ones?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "guidance lives in the Rampart",
+      "doc_id": "IT-PWD-08"
+    },
+    "qid": "q24",
+    "question": "What does the IT password policy state about rampart, guidance, guide, lives, mfa?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are tracked in the Xanadu",
+      "doc_id": "OPS-PTO-01"
+    },
+    "qid": "q25",
+    "question": "What does the Operations PTO policy state about xanadu, end, anything, balances, blackout?"
+  },
+  {
+    "answerable": true,
+    "gold": {
+      "answer_phrase": "are published in the Chit",
+      "doc_id": "OPS-EXP-02"
+    },
+    "qid": "q26",
+    "question": "What does the Operations expense policy state about chit, 5000, ahead, airfare, booked?"
+  },
+  {
+    "answerable": false,
+    "gold": null,
+    "qid": "q27",
+    "question": "What are the safety protocols for the lunar manufacturing plant?"
+  },
+  {
+    "answerable": false,
+    "gold": null,
+    "qid": "q28",
+    "question": "How often is the company yacht serviced for hull maintenance?"
+  },
+  {
+    "answerable": false,
+    "gold": null,
+    "qid": "q29",
+    "question": "What is the CEO's favorite restaurant for client dinners?"
+  },
+  {
+    "answerable": false,
+    "gold": null,
+    "qid": "q30",
+    "question": "What is the annual budget for the pet astronaut program?"
+  }
+]

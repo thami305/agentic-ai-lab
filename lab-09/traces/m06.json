@@ -1,0 +1,25 @@
+{
+  "case_id": "m06",
+  "spans": [
+    {
+      "span": "path",
+      "name": "validate_input",
+      "latency_ms": 0.002,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "clarify",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "validate_input",
+    "clarify"
+  ]
+}

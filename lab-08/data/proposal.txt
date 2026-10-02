@@ -1,0 +1,84 @@
+[passage PROP-P1 | section: Pricing]
+
+Cloudline Systems proposes an annual platform fee of $48,000 for the Acme Corp
+deployment, covering up to 10,000 active seats and standard onboarding. Fees
+are payable quarterly in advance, with the first installment due on the
+effective date. The initial term is thirty-six months from the effective date.
+The vendor may increase the annual fee at each renewal anniversary at its
+sole discretion, with no cap, index, or notice-period limitation. All fees are
+exclusive of applicable taxes, which the customer is responsible for paying.
+
+[passage PROP-P2 | section: Pricing]
+
+Usage above the included 10,000 seats is billed as overage at $6 per seat per
+month, metered monthly and invoiced in arrears. Payment terms are net
+forty-five days from invoice date. Late payments accrue interest at one and
+one half percent per month until paid in full. Professional services, if
+required, are billed separately at $220 per hour with a forty-hour monthly
+minimum commitment, and travel expenses are passed through at cost.
+
+[passage PROP-P3 | section: Pricing]
+
+If the customer terminates the agreement for convenience before the end of
+the then-current term, an early termination fee equal to fifty percent of the
+fees remaining under the then-current term is due within thirty days of the
+termination notice. The early termination fee is in addition to any fees
+already accrued and is not subject to proration. Termination for convenience
+requires at least sixty days' prior written notice to the vendor.
+
+[passage PROP-P4 | section: Terms]
+
+This agreement will automatically renew for successive twelve-month terms
+unless either party provides written notice of non-renewal at least ninety
+days before the end of the then-current term. Pricing for each renewal term
+will reflect the fee schedule in effect at the time of renewal, including any
+increases applied under the escalation provision. Renewal terms are otherwise
+on the same conditions as the initial term unless the parties agree otherwise
+in a signed amendment.
+
+[passage PROP-P5 | section: Terms]
+
+Except as prohibited by applicable law, neither party's total aggregate
+liability under this agreement is capped. The vendor disclaims all implied
+warranties to the fullest extent permitted by law. Neither party will be
+liable for indirect or consequential damages, regardless of whether such
+damages were foreseeable. Each party agrees to indemnify the other against
+third-party claims arising from its own gross negligence or willful
+misconduct.
+
+[passage PROP-P6 | section: Terms]
+
+Either party may terminate for cause if the other party materially breaches
+this agreement and fails to cure within thirty days of written notice. The
+vendor may suspend services on ten days' written notice if undisputed fees
+remain unpaid for more than sixty days. The vendor may assign this agreement
+without the customer's consent in connection with a merger, acquisition, or
+sale of substantially all of its assets.
+
+[passage PROP-P7 | section: Delivery/SLA]
+
+The vendor will use its commercially reasonable best efforts to maintain
+99.5% monthly platform uptime, excluding scheduled maintenance windows of up
+to four hours per month. Service credits, if any, are at the vendor's sole
+discretion and are the customer's exclusive remedy for any failure to meet
+the uptime target. Uptime is measured by the vendor's own monitoring systems,
+and the customer must report suspected outages within five business days to
+be eligible for any consideration.
+
+[passage PROP-P8 | section: Delivery/SLA]
+
+Standard support is available during business hours, 8am to 6pm Pacific,
+Monday through Friday, excluding vendor holidays. The vendor targets a
+four-hour response time for priority-one incidents and a next-business-day
+response for all other issues. The proposal states no service credit or other
+remedy if these response targets are missed. Emergency after-hours support is
+available for priority-one incidents only and is billed at time and materials.
+
+[passage PROP-P9 | section: Terms]
+
+This proposal is governed by the laws of the State of Washington. All
+disputes will be resolved by binding arbitration in Seattle under the rules
+of the American Arbitration Association. This proposal expires thirty days
+after issuance and does not constitute a binding agreement until countersigned
+by both parties. Notices under this agreement must be sent by email with
+confirmed receipt or by overnight courier.

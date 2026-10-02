@@ -1,0 +1,77 @@
+{
+  "case_id": "a08",
+  "spans": [
+    {
+      "span": "path",
+      "name": "validate_input",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.076,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "retrieve",
+      "latency_ms": 0.081,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "assess",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "synthesize",
+      "latency_ms": 0.081,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "synthesize",
+      "latency_ms": 0.086,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "validate",
+      "latency_ms": 0.057,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "publish",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "validate_input",
+    "retrieve",
+    "assess",
+    "synthesize",
+    "validate",
+    "publish"
+  ]
+}

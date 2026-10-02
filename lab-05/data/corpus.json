@@ -1,0 +1,492 @@
+[
+  {
+    "department": "HR",
+    "doc_id": "HR-PTO-01",
+    "effective_date": "2024-04",
+    "paragraphs": [
+      "PTO payouts on departure are capped at 5 days and paid at the final hourly rate. Floating holidays number 2 per year and expire on March 31 if unused. Part-time staff working at least 20 hours per week accrue PTO at 50 percent of the full-time rate. Employees with 3 or more years of tenure earn an extra 1 PTO day per year. Employees accrue 1.5 PTO days per month, up to an annual cap of 30 days.",
+      "Parental leave runs 6 weeks at 100 percent pay, in addition to accrued PTO. The blackout calendar blocks PTO during 3 peak weeks each year-end. Managers must respond to PTO requests within 5 business days or the request auto-approves. Sick leave is separate from PTO: 5 paid sick days per year, usable in 1 hour increments.",
+      "Unused PTO up to 5 days carries over into January; anything above that is forfeited. New hires begin accruing PTO after a 90 day waiting period from their start date. PTO balances are tracked in the Wexford leave system. PTO requests of 5 or more consecutive days require manager approval 10 business days in advance."
+    ],
+    "title": "HR PTO policy",
+    "version": "v1.3"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-PTO-01",
+    "effective_date": "2025-12",
+    "paragraphs": [
+      "Part-time staff working at least 24 hours per week accrue PTO at 60 percent of the full-time rate. Parental leave runs 6 weeks at 60 percent pay, in addition to accrued PTO. PTO balances are tracked in the Zephyr leave system. Managers must respond to PTO requests within 3 business days or the request auto-approves.",
+      "Employees accrue 1.67 PTO days per month, up to an annual cap of 20 days. Unused PTO up to 10 days carries over into January; anything above that is forfeited. PTO requests of 10 or more consecutive days require manager approval 14 business days in advance. The blackout calendar blocks PTO during 4 peak weeks each year-end. Floating holidays number 3 per year and expire on December 31 if unused.",
+      "Employees with 7 or more years of tenure earn an extra 1 PTO day per year. New hires begin accruing PTO after a 90 day waiting period from their start date. PTO payouts on departure are capped at 15 days and paid at the final hourly rate. Sick leave is separate from PTO: 10 paid sick days per year, usable in 2 hour increments."
+    ],
+    "title": "Finance PTO policy",
+    "version": "v2.5"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-PTO-01",
+    "effective_date": "2025-06",
+    "paragraphs": [
+      "Managers must respond to PTO requests within 5 business days or the request auto-approves. Employees accrue 2.0 PTO days per month, up to an annual cap of 25 days. PTO balances are tracked in the Vantage leave system. Floating holidays number 3 per year and expire on January 31 if unused.",
+      "Unused PTO up to 10 days carries over into January; anything above that is forfeited. PTO payouts on departure are capped at 10 days and paid at the final hourly rate. Part-time staff working at least 24 hours per week accrue PTO at 60 percent of the full-time rate. Parental leave runs 6 weeks at 100 percent pay, in addition to accrued PTO.",
+      "Employees with 5 or more years of tenure earn an extra 2 PTO day per year. PTO requests of 10 or more consecutive days require manager approval 10 business days in advance. New hires begin accruing PTO after a 60 day waiting period from their start date. Sick leave is separate from PTO: 7 paid sick days per year, usable in 4 hour increments. The blackout calendar blocks PTO during 3 peak weeks each holiday."
+    ],
+    "title": "IT PTO policy",
+    "version": "v2.9"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-PTO-01",
+    "effective_date": "2025-01",
+    "paragraphs": [
+      "Part-time staff working at least 30 hours per week accrue PTO at 75 percent of the full-time rate. Parental leave runs 12 weeks at 80 percent pay, in addition to accrued PTO. Employees accrue 1.67 PTO days per month, up to an annual cap of 24 days.",
+      "New hires begin accruing PTO after a 30 day waiting period from their start date. Sick leave is separate from PTO: 7 paid sick days per year, usable in 1 hour increments. Employees with 3 or more years of tenure earn an extra 3 PTO day per year. Floating holidays number 3 per year and expire on March 31 if unused. Managers must respond to PTO requests within 3 business days or the request auto-approves.",
+      "PTO balances are tracked in the Xanadu leave system. PTO payouts on departure are capped at 10 days and paid at the final hourly rate. The blackout calendar blocks PTO during 2 peak weeks each year-end. Unused PTO up to 5 days carries over into January; anything above that is forfeited. PTO requests of 7 or more consecutive days require manager approval 21 business days in advance."
+    ],
+    "title": "Operations PTO policy",
+    "version": "v3.7"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-PTO-01",
+    "effective_date": "2025-02",
+    "paragraphs": [
+      "The blackout calendar blocks PTO during 4 peak weeks each winter. Floating holidays number 1 per year and expire on March 31 if unused. PTO balances are tracked in the Yonder leave system. New hires begin accruing PTO after a 90 day waiting period from their start date. Unused PTO up to 10 days carries over into January; anything above that is forfeited.",
+      "Employees accrue 1.67 PTO days per month, up to an annual cap of 30 days. Employees with 7 or more years of tenure earn an extra 1 PTO day per year. Parental leave runs 6 weeks at 80 percent pay, in addition to accrued PTO. PTO payouts on departure are capped at 15 days and paid at the final hourly rate. Managers must respond to PTO requests within 3 business days or the request auto-approves.",
+      "Part-time staff working at least 24 hours per week accrue PTO at 50 percent of the full-time rate. Sick leave is separate from PTO: 10 paid sick days per year, usable in 1 hour increments. PTO requests of 7 or more consecutive days require manager approval 21 business days in advance."
+    ],
+    "title": "Legal PTO policy",
+    "version": "v2.8"
+  },
+  {
+    "department": "HR",
+    "doc_id": "HR-EXP-02",
+    "effective_date": "2025-06",
+    "paragraphs": [
+      "Expenses above $2500 require pre-approval from a director. Duplicate submissions are flagged after 2 identical receipts in a quarter. Currency conversion uses the First National rate on the transaction date plus a 2.5 percent fee.",
+      "Receipts are required for every expense over $25. The hotel nightly limit is $220 in major metros and $150 elsewhere. Expense policy clarifications are published in the Voucher bulletin.",
+      "The meal per diem is capped at $45 per day for domestic travel. Airfare must be booked at least 21 days ahead; business class requires flights of 6 or more hours. Client entertainment over $100 per person needs VP sign-off. Mileage is reimbursed at $0.70 per mile using the standard route distance.",
+      "The home office stipend is $500 per year for remote staff. Expense reports must be filed within 14 days of travel completion. Corporate card limits default to $5000 per cycle for individual contributors."
+    ],
+    "title": "HR expense policy",
+    "version": "v3.4"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-EXP-02",
+    "effective_date": "2024-10",
+    "paragraphs": [
+      "Currency conversion uses the First National rate on the transaction date plus a 1.5 percent fee. Receipts are required for every expense over $50. The home office stipend is $500 per year for remote staff. Mileage is reimbursed at $0.72 per mile using the standard route distance.",
+      "Expense policy clarifications are published in the Tally bulletin. Expense reports must be filed within 60 days of travel completion. Corporate card limits default to $7500 per cycle for individual contributors. The hotel nightly limit is $180 in major metros and $120 elsewhere.",
+      "Client entertainment over $150 per person needs VP sign-off. Duplicate submissions are flagged after 3 identical receipts in a quarter. Airfare must be booked at least 21 days ahead; business class requires flights of 6 or more hours. Expenses above $2500 require pre-approval from a director. The meal per diem is capped at $65 per day for domestic travel."
+    ],
+    "title": "Finance expense policy",
+    "version": "v3.6"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-EXP-02",
+    "effective_date": "2026-04",
+    "paragraphs": [
+      "Receipts are required for every expense over $25. Corporate card limits default to $2500 per cycle for individual contributors. Expenses above $1500 require pre-approval from a director. The meal per diem is capped at $75 per day for domestic travel.",
+      "The home office stipend is $500 per year for remote staff. Expense policy clarifications are published in the Tender bulletin. Duplicate submissions are flagged after 3 identical receipts in a quarter. Expense reports must be filed within 30 days of travel completion. Client entertainment over $75 per person needs VP sign-off.",
+      "Currency conversion uses the First National rate on the transaction date plus a 2.0 percent fee. Mileage is reimbursed at $0.70 per mile using the standard route distance. The hotel nightly limit is $250 in major metros and $120 elsewhere. Airfare must be booked at least 14 days ahead; business class requires flights of 8 or more hours."
+    ],
+    "title": "IT expense policy",
+    "version": "v2.1"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-EXP-02",
+    "effective_date": "2025-07",
+    "paragraphs": [
+      "Corporate card limits default to $5000 per cycle for individual contributors. Expense policy clarifications are published in the Chit bulletin. Receipts are required for every expense over $75. Airfare must be booked at least 14 days ahead; business class requires flights of 8 or more hours.",
+      "Expense reports must be filed within 30 days of travel completion. The meal per diem is capped at $65 per day for domestic travel. The home office stipend is $1000 per year for remote staff.",
+      "Mileage is reimbursed at $0.70 per mile using the standard route distance. Currency conversion uses the the corporate bank rate on the transaction date plus a 1.5 percent fee. Expenses above $500 require pre-approval from a director.",
+      "Duplicate submissions are flagged after 3 identical receipts in a quarter. Client entertainment over $75 per person needs VP sign-off. The hotel nightly limit is $250 in major metros and $150 elsewhere."
+    ],
+    "title": "Operations expense policy",
+    "version": "v1.0"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-EXP-02",
+    "effective_date": "2024-07",
+    "paragraphs": [
+      "The meal per diem is capped at $75 per day for domestic travel. Expense policy clarifications are published in the Docket bulletin. Corporate card limits default to $7500 per cycle for individual contributors. Mileage is reimbursed at $0.67 per mile using the standard route distance. The home office stipend is $750 per year for remote staff.",
+      "Airfare must be booked at least 7 days ahead; business class requires flights of 8 or more hours. The hotel nightly limit is $300 in major metros and $120 elsewhere. Currency conversion uses the the corporate bank rate on the transaction date plus a 2.5 percent fee. Expense reports must be filed within 30 days of travel completion. Expenses above $1500 require pre-approval from a director.",
+      "Receipts are required for every expense over $75. Client entertainment over $75 per person needs VP sign-off. Duplicate submissions are flagged after 2 identical receipts in a quarter."
+    ],
+    "title": "Legal expense policy",
+    "version": "v3.0"
+  },
+  {
+    "department": "HR",
+    "doc_id": "HR-DATA-03",
+    "effective_date": "2024-08",
+    "paragraphs": [
+      "Support tickets are purged 90 days after resolution. Legal holds suspend all deletion for affected custodians until the hold is released. Encryption keys rotate every 60 days; retired keys are archived for 2 year.",
+      "Analytics aggregates older than 13 months are rolled up and the raw events dropped. Access logs are stored for 365 days for security review. Deleted user accounts are held in cold storage for 90 days before erasure.",
+      "Backups follow a grandfather-father-son rotation with offsite copies in 2 regions. Email archives persist for 18 months before automatic deletion. The master retention schedule is maintained in the Beacon system.",
+      "Data subject deletion requests must be honored within 30 days. Customer transaction logs are retained for 3 years, then anonymized. Financial records follow a 7 year retention to satisfy audit rules. Marketing consent records are kept for 2 years after opt-out."
+    ],
+    "title": "HR data retention policy",
+    "version": "v1.9"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-DATA-03",
+    "effective_date": "2024-10",
+    "paragraphs": [
+      "Legal holds suspend all deletion for affected custodians until the hold is released. Backups follow a 3-2-1 rotation with offsite copies in 3 regions. Analytics aggregates older than 18 months are rolled up and the raw events dropped.",
+      "Support tickets are purged 60 days after resolution. Financial records follow a 10 year retention to satisfy audit rules. Email archives persist for 24 months before automatic deletion. The master retention schedule is maintained in the Atlas system. Deleted user accounts are held in cold storage for 30 days before erasure.",
+      "Marketing consent records are kept for 5 years after opt-out. Access logs are stored for 180 days for security review. Customer transaction logs are retained for 7 years, then anonymized. Data subject deletion requests must be honored within 45 days. Encryption keys rotate every 90 days; retired keys are archived for 2 year."
+    ],
+    "title": "Finance data retention policy",
+    "version": "v1.3"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-DATA-03",
+    "effective_date": "2025-06",
+    "paragraphs": [
+      "Encryption keys rotate every 60 days; retired keys are archived for 1 year. Customer transaction logs are retained for 7 years, then anonymized. The master retention schedule is maintained in the Drift system. Legal holds suspend all deletion for affected custodians until the hold is released.",
+      "Data subject deletion requests must be honored within 30 days. Access logs are stored for 90 days for security review. Backups follow a grandfather-father-son rotation with offsite copies in 2 regions. Email archives persist for 24 months before automatic deletion. Deleted user accounts are held in cold storage for 90 days before erasure.",
+      "Marketing consent records are kept for 5 years after opt-out. Support tickets are purged 60 days after resolution. Financial records follow a 10 year retention to satisfy audit rules. Analytics aggregates older than 24 months are rolled up and the raw events dropped."
+    ],
+    "title": "IT data retention policy",
+    "version": "v3.2"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-DATA-03",
+    "effective_date": "2024-10",
+    "paragraphs": [
+      "Email archives persist for 18 months before automatic deletion. Customer transaction logs are retained for 3 years, then anonymized. Financial records follow a 10 year retention to satisfy audit rules. Deleted user accounts are held in cold storage for 30 days before erasure. Analytics aggregates older than 18 months are rolled up and the raw events dropped.",
+      "The master retention schedule is maintained in the Flint system. Data subject deletion requests must be honored within 30 days. Backups follow a 3-2-1 rotation with offsite copies in 2 regions. Support tickets are purged 90 days after resolution.",
+      "Legal holds suspend all deletion for affected custodians until the hold is released. Access logs are stored for 180 days for security review. Marketing consent records are kept for 5 years after opt-out. Encryption keys rotate every 30 days; retired keys are archived for 2 year."
+    ],
+    "title": "Operations data retention policy",
+    "version": "v2.9"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-DATA-03",
+    "effective_date": "2026-03",
+    "paragraphs": [
+      "Support tickets are purged 30 days after resolution. Marketing consent records are kept for 2 years after opt-out. Customer transaction logs are retained for 7 years, then anonymized. Encryption keys rotate every 90 days; retired keys are archived for 1 year. Access logs are stored for 180 days for security review.",
+      "Email archives persist for 18 months before automatic deletion. Financial records follow a 10 year retention to satisfy audit rules. Data subject deletion requests must be honored within 45 days.",
+      "Analytics aggregates older than 18 months are rolled up and the raw events dropped. Legal holds suspend all deletion for affected custodians until the hold is released. Backups follow a grandfather-father-son rotation with offsite copies in 2 regions. The master retention schedule is maintained in the Ember system. Deleted user accounts are held in cold storage for 90 days before erasure."
+    ],
+    "title": "Legal data retention policy",
+    "version": "v1.6"
+  },
+  {
+    "department": "HR",
+    "doc_id": "HR-INC-04",
+    "effective_date": "2026-01",
+    "paragraphs": [
+      "Rollback decisions for Sev1 require 2 approver on the bridge. Status updates go out every 15 minutes until the incident is resolved. The blameless postmortem template v3.0 is mandatory for Sev1 and Sev2. On-call shifts are 8 hours with a 15 minute handover overlap. Incident commanders are drawn from a rotation of 8 trained staff.",
+      "Customer-facing outages trigger executive notification after 60 minutes. Repeat incidents with the same root cause within 30 days escalate to Sev1 automatically. Incident runbooks are stored in the Ozone wiki.",
+      "War-room notes are archived in the incident record within 1 hour of resolution. Postmortems are due within 5 business days of incident closure. Severity 1 incidents page the on-call engineer within 5 minutes. A bridge call must start within 15 minutes of a Sev1 declaration. Detection SLA: alerts must fire within 120 seconds of a threshold breach."
+    ],
+    "title": "HR incident response policy",
+    "version": "v1.3"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-INC-04",
+    "effective_date": "2024-03",
+    "paragraphs": [
+      "Status updates go out every 15 minutes until the incident is resolved. The blameless postmortem template v3.0 is mandatory for Sev1 and Sev2. Detection SLA: alerts must fire within 120 seconds of a threshold breach.",
+      "Incident runbooks are stored in the Pyre wiki. Postmortems are due within 3 business days of incident closure. Repeat incidents with the same root cause within 30 days escalate to Sev1 automatically. Severity 1 incidents page the on-call engineer within 10 minutes.",
+      "Rollback decisions for Sev1 require 1 approver on the bridge. On-call shifts are 8 hours with a 30 minute handover overlap. Customer-facing outages trigger executive notification after 30 minutes. War-room notes are archived in the incident record within 2 hour of resolution. A bridge call must start within 30 minutes of a Sev1 declaration.",
+      "Incident commanders are drawn from a rotation of 12 trained staff."
+    ],
+    "title": "Finance incident response policy",
+    "version": "v2.9"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-INC-04",
+    "effective_date": "2025-06",
+    "paragraphs": [
+      "Status updates go out every 30 minutes until the incident is resolved. War-room notes are archived in the incident record within 2 hour of resolution. Rollback decisions for Sev1 require 1 approver on the bridge. On-call shifts are 12 hours with a 30 minute handover overlap. Repeat incidents with the same root cause within 14 days escalate to Sev1 automatically.",
+      "Incident runbooks are stored in the Halcyon wiki. Incident commanders are drawn from a rotation of 8 trained staff. Severity 1 incidents page the on-call engineer within 5 minutes. Customer-facing outages trigger executive notification after 30 minutes.",
+      "Detection SLA: alerts must fire within 30 seconds of a threshold breach. The blameless postmortem template v2.1 is mandatory for Sev1 and Sev2. Postmortems are due within 3 business days of incident closure. A bridge call must start within 15 minutes of a Sev1 declaration."
+    ],
+    "title": "IT incident response policy",
+    "version": "v1.5"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-INC-04",
+    "effective_date": "2025-05",
+    "paragraphs": [
+      "Rollback decisions for Sev1 require 2 approver on the bridge. On-call shifts are 8 hours with a 15 minute handover overlap. Postmortems are due within 3 business days of incident closure. The blameless postmortem template v3.0 is mandatory for Sev1 and Sev2. Incident commanders are drawn from a rotation of 8 trained staff.",
+      "A bridge call must start within 30 minutes of a Sev1 declaration. Incident runbooks are stored in the Vigil wiki. Repeat incidents with the same root cause within 14 days escalate to Sev1 automatically.",
+      "Detection SLA: alerts must fire within 120 seconds of a threshold breach. Customer-facing outages trigger executive notification after 60 minutes. Severity 1 incidents page the on-call engineer within 15 minutes. War-room notes are archived in the incident record within 1 hour of resolution. Status updates go out every 30 minutes until the incident is resolved."
+    ],
+    "title": "Operations incident response policy",
+    "version": "v2.1"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-INC-04",
+    "effective_date": "2026-04",
+    "paragraphs": [
+      "War-room notes are archived in the incident record within 2 hour of resolution. Detection SLA: alerts must fire within 120 seconds of a threshold breach. Status updates go out every 30 minutes until the incident is resolved.",
+      "Severity 1 incidents page the on-call engineer within 10 minutes. Incident commanders are drawn from a rotation of 8 trained staff. Repeat incidents with the same root cause within 14 days escalate to Sev1 automatically.",
+      "A bridge call must start within 30 minutes of a Sev1 declaration. Postmortems are due within 3 business days of incident closure. On-call shifts are 12 hours with a 30 minute handover overlap. Incident runbooks are stored in the Siren wiki. Customer-facing outages trigger executive notification after 30 minutes.",
+      "Rollback decisions for Sev1 require 2 approver on the bridge. The blameless postmortem template v3.0 is mandatory for Sev1 and Sev2."
+    ],
+    "title": "Legal incident response policy",
+    "version": "v2.3"
+  },
+  {
+    "department": "HR",
+    "doc_id": "HR-REM-05",
+    "effective_date": "2024-12",
+    "paragraphs": [
+      "Coworking memberships up to $400 per month are reimbursable. VPN must be connected for all internal tools; split tunneling is blocked for sensitive subnets. Office visits are reimbursed up to 2 trips per quarter. Remote employees may work from 8 approved countries up to 90 days per year. Remote staff must be online during 10:00 to 15:00 core hours in their timezone.",
+      "Video-on is expected for meetings with fewer than 12 participants. Ergonomic assessments are offered every 12 months. Remote work norms are documented in the Summit handbook.",
+      "The equipment refresh cycle is 36 months for laptops. Timezone spread on a team may not exceed 10 hours without director approval. New remote hires get a 4 week buddy pairing. Async-first rule: decisions need a 24 hour comment window before closing. The home internet stipend is $100 per month with receipts."
+    ],
+    "title": "HR remote work policy",
+    "version": "v3.9"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-REM-05",
+    "effective_date": "2026-01",
+    "paragraphs": [
+      "Remote staff must be online during 9:30 to 16:00 core hours in their timezone. Timezone spread on a team may not exceed 10 hours without director approval. Coworking memberships up to $200 per month are reimbursable.",
+      "Remote work norms are documented in the Harbor handbook. Office visits are reimbursed up to 2 trips per quarter. Video-on is expected for meetings with fewer than 12 participants.",
+      "VPN must be connected for all internal tools; split tunneling is blocked for sensitive subnets. New remote hires get a 4 week buddy pairing. Remote employees may work from 5 approved countries up to 90 days per year.",
+      "Async-first rule: decisions need a 48 hour comment window before closing. Ergonomic assessments are offered every 12 months. The home internet stipend is $100 per month with receipts. The equipment refresh cycle is 24 months for laptops."
+    ],
+    "title": "Finance remote work policy",
+    "version": "v1.4"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-REM-05",
+    "effective_date": "2026-06",
+    "paragraphs": [
+      "New remote hires get a 4 week buddy pairing. The home internet stipend is $75 per month with receipts. Remote staff must be online during 10:00 to 16:00 core hours in their timezone. The equipment refresh cycle is 24 months for laptops.",
+      "Coworking memberships up to $300 per month are reimbursable. Office visits are reimbursed up to 4 trips per quarter. Remote employees may work from 5 approved countries up to 90 days per year. Timezone spread on a team may not exceed 10 hours without director approval. Remote work norms are documented in the Northstar handbook.",
+      "Ergonomic assessments are offered every 12 months. Video-on is expected for meetings with fewer than 10 participants. VPN must be connected for all internal tools; split tunneling is prohibited. Async-first rule: decisions need a 48 hour comment window before closing."
+    ],
+    "title": "IT remote work policy",
+    "version": "v2.5"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-REM-05",
+    "effective_date": "2025-10",
+    "paragraphs": [
+      "Remote work norms are documented in the Pioneer handbook. Remote staff must be online during 10:00 to 15:00 core hours in their timezone. Remote employees may work from 5 approved countries up to 30 days per year.",
+      "New remote hires get a 4 week buddy pairing. Office visits are reimbursed up to 2 trips per quarter. Timezone spread on a team may not exceed 8 hours without director approval. The equipment refresh cycle is 24 months for laptops. Async-first rule: decisions need a 48 hour comment window before closing.",
+      "VPN must be connected for all internal tools; split tunneling is prohibited. Ergonomic assessments are offered every 12 months. Video-on is expected for meetings with fewer than 12 participants. Coworking memberships up to $200 per month are reimbursable. The home internet stipend is $100 per month with receipts."
+    ],
+    "title": "Operations remote work policy",
+    "version": "v1.6"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-REM-05",
+    "effective_date": "2026-03",
+    "paragraphs": [
+      "Timezone spread on a team may not exceed 8 hours without director approval. The home internet stipend is $75 per month with receipts. Remote work norms are documented in the Tidewater handbook.",
+      "Office visits are reimbursed up to 4 trips per quarter. Ergonomic assessments are offered every 12 months. VPN must be connected for all internal tools; split tunneling is disabled. Remote employees may work from 12 approved countries up to 30 days per year. The equipment refresh cycle is 36 months for laptops.",
+      "Remote staff must be online during 10:00 to 16:00 core hours in their timezone. Async-first rule: decisions need a 24 hour comment window before closing. Video-on is expected for meetings with fewer than 10 participants. Coworking memberships up to $300 per month are reimbursable. New remote hires get a 4 week buddy pairing."
+    ],
+    "title": "Legal remote work policy",
+    "version": "v3.8"
+  },
+  {
+    "department": "HR",
+    "doc_id": "HR-PROC-06",
+    "effective_date": "2024-05",
+    "paragraphs": [
+      "Procurement cards cap at $2500 per transaction. Conflict-of-interest disclosures are filed once annually. Software renewals need 90 day advance notice to procurement.",
+      "Procurement exceptions are logged in the Meridian ledger. Emergency purchases up to $1000 may bypass the PO with next-day filing. Invoice payment terms default to Net 30.",
+      "Vendor performance reviews happen every 6 months. Sole-source justifications are required above $25000. Preferred vendors receive 70 percent of category spend where available. Purchases over $1000 require a purchase order before ordering. Contracts above $25000 need legal review and 2 signatures.",
+      "Vendor onboarding takes 5 business days including security review. RFPs are mandatory for engagements over $100000."
+    ],
+    "title": "HR procurement policy",
+    "version": "v1.2"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-PROC-06",
+    "effective_date": "2026-05",
+    "paragraphs": [
+      "Invoice payment terms default to Net 45. Conflict-of-interest disclosures are filed once annually. Procurement exceptions are logged in the Lodestar ledger. RFPs are mandatory for engagements over $100000. Vendor performance reviews happen every 12 months.",
+      "Emergency purchases up to $5000 may bypass the PO with next-day filing. Software renewals need 60 day advance notice to procurement. Vendor onboarding takes 15 business days including security review. Preferred vendors receive 70 percent of category spend where available.",
+      "Purchases over $1000 require a purchase order before ordering. Procurement cards cap at $2500 per transaction. Contracts above $100000 need legal review and 3 signatures. Sole-source justifications are required above $10000."
+    ],
+    "title": "Finance procurement policy",
+    "version": "v3.9"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-PROC-06",
+    "effective_date": "2024-02",
+    "paragraphs": [
+      "Contracts above $100000 need legal review and 3 signatures. Procurement exceptions are logged in the Northgate ledger. RFPs are mandatory for engagements over $100000. Procurement cards cap at $2500 per transaction.",
+      "Emergency purchases up to $2500 may bypass the PO with next-day filing. Software renewals need 60 day advance notice to procurement. Vendor performance reviews happen every 6 months. Conflict-of-interest disclosures are filed twice annually.",
+      "Vendor onboarding takes 15 business days including security review. Preferred vendors receive 90 percent of category spend where available. Invoice payment terms default to Net 60. Purchases over $2500 require a purchase order before ordering. Sole-source justifications are required above $10000."
+    ],
+    "title": "IT procurement policy",
+    "version": "v3.9"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-PROC-06",
+    "effective_date": "2024-07",
+    "paragraphs": [
+      "Vendor performance reviews happen every 6 months. Procurement cards cap at $2500 per transaction. Vendor onboarding takes 15 business days including security review. Purchases over $2500 require a purchase order before ordering. Sole-source justifications are required above $25000.",
+      "Procurement exceptions are logged in the Overlook ledger. Contracts above $50000 need legal review and 2 signatures. Preferred vendors receive 70 percent of category spend where available. Emergency purchases up to $5000 may bypass the PO with next-day filing. Invoice payment terms default to Net 30.",
+      "Conflict-of-interest disclosures are filed twice annually. RFPs are mandatory for engagements over $50000. Software renewals need 60 day advance notice to procurement."
+    ],
+    "title": "Operations procurement policy",
+    "version": "v2.5"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-PROC-06",
+    "effective_date": "2026-06",
+    "paragraphs": [
+      "Invoice payment terms default to Net 45. Sole-source justifications are required above $25000. Vendor onboarding takes 15 business days including security review. Emergency purchases up to $1000 may bypass the PO with next-day filing. RFPs are mandatory for engagements over $100000.",
+      "Conflict-of-interest disclosures are filed twice annually. Purchases over $1000 require a purchase order before ordering. Vendor performance reviews happen every 6 months.",
+      "Preferred vendors receive 80 percent of category spend where available. Software renewals need 30 day advance notice to procurement. Contracts above $25000 need legal review and 2 signatures. Procurement exceptions are logged in the Ironclad ledger. Procurement cards cap at $2500 per transaction."
+    ],
+    "title": "Legal procurement policy",
+    "version": "v1.9"
+  },
+  {
+    "department": "HR",
+    "doc_id": "HR-ONB-07",
+    "effective_date": "2024-12",
+    "paragraphs": [
+      "New hire paperwork must be completed 5 days before day one. Onboarding progress is tracked in the Springboard portal. Orientation runs 3 days covering culture, tools, and compliance. Every new hire is assigned a buddy for the first 6 weeks.",
+      "Managers schedule 4 one-on-ones in the first month. Team introductions are calendared across the first 10 days. IT provisions accounts within 48 hours of the signed offer.",
+      "Compliance courses (3 total) must finish in the first 14 days. The probation review happens at 60 days with written feedback. The 90 day plan is reviewed with the manager at the midpoint check-in.",
+      "Background checks complete within 10 business days on average. Equipment ships 5 days before the start date for remote hires. Role-specific training paths contain 6 modules due by day 30."
+    ],
+    "title": "HR onboarding policy",
+    "version": "v2.6"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-ONB-07",
+    "effective_date": "2025-12",
+    "paragraphs": [
+      "Role-specific training paths contain 8 modules due by day 60. Every new hire is assigned a buddy for the first 4 weeks. The probation review happens at 60 days with written feedback.",
+      "New hire paperwork must be completed 7 days before day one. Team introductions are calendared across the first 10 days. IT provisions accounts within 72 hours of the signed offer. Orientation runs 5 days covering culture, tools, and compliance.",
+      "The 90 day plan is reviewed with the manager at the midpoint check-in. Background checks complete within 10 business days on average. Managers schedule 4 one-on-ones in the first month. Compliance courses (4 total) must finish in the first 7 days. Onboarding progress is tracked in the Gateway portal.",
+      "Equipment ships 5 days before the start date for remote hires."
+    ],
+    "title": "Finance onboarding policy",
+    "version": "v1.9"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-ONB-07",
+    "effective_date": "2025-11",
+    "paragraphs": [
+      "Managers schedule 4 one-on-ones in the first month. IT provisions accounts within 48 hours of the signed offer. Orientation runs 3 days covering culture, tools, and compliance. Onboarding progress is tracked in the Prelude portal. Equipment ships 3 days before the start date for remote hires.",
+      "Compliance courses (3 total) must finish in the first 7 days. New hire paperwork must be completed 5 days before day one. Background checks complete within 5 business days on average.",
+      "Role-specific training paths contain 6 modules due by day 45. The 60 day plan is reviewed with the manager at the midpoint check-in. The probation review happens at 60 days with written feedback. Team introductions are calendared across the first 5 days. Every new hire is assigned a buddy for the first 6 weeks."
+    ],
+    "title": "IT onboarding policy",
+    "version": "v2.4"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-ONB-07",
+    "effective_date": "2024-01",
+    "paragraphs": [
+      "Every new hire is assigned a buddy for the first 4 weeks. Team introductions are calendared across the first 5 days. Equipment ships 3 days before the start date for remote hires.",
+      "The probation review happens at 90 days with written feedback. New hire paperwork must be completed 3 days before day one. Onboarding progress is tracked in the Onramp portal. Orientation runs 2 days covering culture, tools, and compliance. Background checks complete within 5 business days on average.",
+      "Role-specific training paths contain 6 modules due by day 30. The 90 day plan is reviewed with the manager at the midpoint check-in. Managers schedule 2 one-on-ones in the first month. Compliance courses (3 total) must finish in the first 7 days. IT provisions accounts within 24 hours of the signed offer."
+    ],
+    "title": "Operations onboarding policy",
+    "version": "v3.6"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-ONB-07",
+    "effective_date": "2026-04",
+    "paragraphs": [
+      "Equipment ships 3 days before the start date for remote hires. Every new hire is assigned a buddy for the first 2 weeks. Onboarding progress is tracked in the Launchpad portal. The probation review happens at 90 days with written feedback. The 30 day plan is reviewed with the manager at the midpoint check-in.",
+      "Role-specific training paths contain 4 modules due by day 45. Background checks complete within 5 business days on average. Team introductions are calendared across the first 10 days. Orientation runs 3 days covering culture, tools, and compliance.",
+      "Compliance courses (3 total) must finish in the first 14 days. New hire paperwork must be completed 7 days before day one. IT provisions accounts within 24 hours of the signed offer. Managers schedule 4 one-on-ones in the first month."
+    ],
+    "title": "Legal onboarding policy",
+    "version": "v1.5"
+  },
+  {
+    "department": "HR",
+    "doc_id": "HR-PWD-08",
+    "effective_date": "2025-10",
+    "paragraphs": [
+      "Passphrases of 5 or more words may skip complexity rules. Password guidance lives in the Citadel guide. Shared credentials are banned; use named accounts with delegated access instead. Password rotation is every 180 days for privileged accounts. Admin consoles require hardware keys; SMS codes are deprecated.",
+      "Password managers are required for all staff; vaults are provisioned on day one. Password reset links expire after 60 minutes. MFA is required for all privileged access, with no exceptions.",
+      "Biometric unlock is allowed on managed devices. Service account secrets rotate every 30 days via the vault. Failed logins lock the account for 15 minutes after 5 attempts. Passwords must be at least 14 characters long. Session timeout is 15 minutes of inactivity."
+    ],
+    "title": "HR password policy",
+    "version": "v2.0"
+  },
+  {
+    "department": "Finance",
+    "doc_id": "FIN-PWD-08",
+    "effective_date": "2024-08",
+    "paragraphs": [
+      "Password rotation is every 180 days for privileged accounts. Admin consoles require hardware keys; SMS codes are not permitted. Password guidance lives in the Sentinel guide.",
+      "Service account secrets rotate every 90 days via the vault. Password reset links expire after 60 minutes. Session timeout is 15 minutes of inactivity. Failed logins lock the account for 30 minutes after 5 attempts.",
+      "Passwords must be at least 14 characters long. Biometric unlock is supported on managed devices. Passphrases of 4 or more words may skip complexity rules. Password managers are strongly encouraged for all staff; vaults are provisioned on day one.",
+      "Shared credentials are forbidden; use named accounts with delegated access instead. MFA is required for all remote access, with no exceptions."
+    ],
+    "title": "Finance password policy",
+    "version": "v2.5"
+  },
+  {
+    "department": "IT",
+    "doc_id": "IT-PWD-08",
+    "effective_date": "2025-04",
+    "paragraphs": [
+      "MFA is required for all remote access, with no exceptions. Service account secrets rotate every 30 days via the vault. Password guidance lives in the Rampart guide.",
+      "Admin consoles require hardware keys; SMS codes are not permitted. Passphrases of 4 or more words may skip complexity rules. Shared credentials are prohibited; use named accounts with delegated access instead. Biometric unlock is encouraged on managed devices. Passwords must be at least 16 characters long.",
+      "Failed logins lock the account for 15 minutes after 5 attempts. Password rotation is every 180 days for privileged accounts. Password managers are required for all staff; vaults are provisioned on day one. Session timeout is 30 minutes of inactivity. Password reset links expire after 60 minutes."
+    ],
+    "title": "IT password policy",
+    "version": "v3.7"
+  },
+  {
+    "department": "Operations",
+    "doc_id": "OPS-PWD-08",
+    "effective_date": "2025-06",
+    "paragraphs": [
+      "Password managers are required for all staff; vaults are provisioned on day one. Passphrases of 4 or more words may skip complexity rules. MFA is required for all privileged access, with no exceptions. Passwords must be at least 14 characters long. Service account secrets rotate every 90 days via the vault.",
+      "Password rotation is every 180 days for privileged accounts. Password reset links expire after 30 minutes. Password guidance lives in the Watchtower guide. Session timeout is 10 minutes of inactivity. Admin consoles require hardware keys; SMS codes are not permitted.",
+      "Shared credentials are prohibited; use named accounts with delegated access instead. Biometric unlock is supported on managed devices. Failed logins lock the account for 30 minutes after 3 attempts."
+    ],
+    "title": "Operations password policy",
+    "version": "v2.6"
+  },
+  {
+    "department": "Legal",
+    "doc_id": "LEG-PWD-08",
+    "effective_date": "2024-02",
+    "paragraphs": [
+      "Shared credentials are forbidden; use named accounts with delegated access instead. Passwords must be at least 12 characters long. Admin consoles require hardware keys; SMS codes are disabled. Password reset links expire after 15 minutes. Password rotation is every 180 days for privileged accounts.",
+      "Password guidance lives in the Bulwark guide. Password managers are required for all staff; vaults are provisioned on day one. Session timeout is 10 minutes of inactivity. Failed logins lock the account for 30 minutes after 3 attempts. Service account secrets rotate every 90 days via the vault.",
+      "MFA is required for all remote access, with no exceptions. Biometric unlock is supported on managed devices. Passphrases of 4 or more words may skip complexity rules."
+    ],
+    "title": "Legal password policy",
+    "version": "v2.4"
+  }
+]

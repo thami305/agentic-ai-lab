@@ -1,0 +1,51 @@
+{
+  "case_id": "f04",
+  "spans": [
+    {
+      "span": "path",
+      "name": "validate_input",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.068,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "retrieve",
+      "latency_ms": 0.072,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "assess",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "review",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "validate_input",
+    "retrieve",
+    "assess",
+    "review"
+  ]
+}

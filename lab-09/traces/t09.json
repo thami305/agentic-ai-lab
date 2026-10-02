@@ -1,0 +1,82 @@
+{
+  "case_id": "t09",
+  "spans": [
+    {
+      "span": "path",
+      "name": "validate_input",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "retry",
+      "name": "retrieve",
+      "latency_ms": 0.004,
+      "tokens": 0,
+      "ok": false,
+      "detail": "RuntimeError: simulated tool failure"
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.01,
+      "tokens": 0,
+      "ok": false,
+      "detail": null
+    },
+    {
+      "span": "retry",
+      "name": "retrieve",
+      "latency_ms": 0.003,
+      "tokens": 0,
+      "ok": false,
+      "detail": "RuntimeError: simulated tool failure"
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.007,
+      "tokens": 0,
+      "ok": false,
+      "detail": null
+    },
+    {
+      "span": "retry",
+      "name": "retrieve",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": false,
+      "detail": "RuntimeError: simulated tool failure"
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.003,
+      "tokens": 0,
+      "ok": false,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "retrieve",
+      "latency_ms": 0.033,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "stop",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "validate_input",
+    "retrieve",
+    "stop"
+  ]
+}

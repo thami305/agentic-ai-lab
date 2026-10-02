@@ -1,0 +1,109 @@
+{
+  "case_id": "t10",
+  "spans": [
+    {
+      "span": "path",
+      "name": "validate_input",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "retry",
+      "name": "retrieve",
+      "latency_ms": 0.002,
+      "tokens": 0,
+      "ok": false,
+      "detail": "RuntimeError: simulated tool failure"
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.005,
+      "tokens": 0,
+      "ok": false,
+      "detail": null
+    },
+    {
+      "span": "retry",
+      "name": "retrieve",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": false,
+      "detail": "RuntimeError: simulated tool failure"
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.003,
+      "tokens": 0,
+      "ok": false,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "retrieve",
+      "latency_ms": 0.055,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "retrieve",
+      "latency_ms": 0.072,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "assess",
+      "latency_ms": 0.0,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "synthesize",
+      "latency_ms": 0.052,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "synthesize",
+      "latency_ms": 0.056,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "validate",
+      "latency_ms": 0.046,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "path",
+      "name": "publish",
+      "latency_ms": 0.001,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "validate_input",
+    "retrieve",
+    "assess",
+    "synthesize",
+    "validate",
+    "publish"
+  ]
+}

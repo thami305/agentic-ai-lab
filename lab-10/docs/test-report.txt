@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /home/hatch/workspace/goals/start-a-consulting-business/agentic-ai-lab/lab-10/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/hatch/workspace/goals/start-a-consulting-business/agentic-ai-lab/lab-10
+collecting ... collected 33 items
+
+tests/test_attacks.py::test_01_goal_hijack_denied PASSED                 [  3%]
+tests/test_attacks.py::test_02_tool_misuse_denied_by_schema PASSED       [  6%]
+tests/test_attacks.py::test_03_privilege_escalation_denied PASSED        [  9%]
+tests/test_attacks.py::test_04_malicious_dependency_never_followed PASSED [ 12%]
+tests/test_attacks.py::test_05_unknown_code_execution_tool_denied PASSED [ 15%]
+tests/test_attacks.py::test_06_memory_poisoning_denied_default_deny PASSED [ 18%]
+tests/test_attacks.py::test_07_spoofed_approval_rejected PASSED          [ 21%]
+tests/test_attacks.py::test_08_cascading_failure_aborts_bounded PASSED   [ 24%]
+tests/test_attacks.py::test_09_misleading_approval_text_denied PASSED    [ 27%]
+tests/test_attacks.py::test_10_cross_client_data_never_in_output PASSED  [ 30%]
+tests/test_attacks.py::test_all_ten_cases_defined PASSED                 [ 33%]
+tests/test_defenses.py::test_audit_append_only_and_chain_verifies PASSED [ 36%]
+tests/test_defenses.py::test_audit_entries_are_copies PASSED             [ 39%]
+tests/test_defenses.py::test_audit_tamper_detected PASSED                [ 42%]
+tests/test_defenses.py::test_every_attack_denial_has_a_reason PASSED     [ 45%]
+tests/test_defenses.py::test_legit_approval_passes_gate PASSED           [ 48%]
+tests/test_defenses.py::test_legit_approval_executes_high_impact_tool PASSED [ 51%]
+tests/test_defenses.py::test_wrong_secret_rejected PASSED                [ 54%]
+tests/test_defenses.py::test_tampered_shown_text_rejected PASSED         [ 57%]
+tests/test_defenses.py::test_shown_vs_actual_mismatch_rejected_despite_valid_hmac PASSED [ 60%]
+tests/test_defenses.py::test_action_mismatch_rejected PASSED             [ 63%]
+tests/test_defenses.py::test_payload_hash_mismatch_rejected PASSED       [ 66%]
+tests/test_defenses.py::test_missing_approval_rejected PASSED            [ 69%]
+tests/test_defenses.py::test_canonical_render_is_deterministic PASSED    [ 72%]
+tests/test_defenses.py::test_namespace_enforcer_finds_nested_markers PASSED [ 75%]
+tests/test_defenses.py::test_namespace_arg_mismatch_denied_before_execution PASSED [ 78%]
+tests/test_defenses.py::test_rate_limit_denies_over_limit_run PASSED     [ 81%]
+tests/test_defenses.py::test_spend_limit_aborts_before_tools_run PASSED  [ 84%]
+tests/test_defenses.py::test_consent_default_deny_then_grant PASSED      [ 87%]
+tests/test_defenses.py::test_consent_cannot_be_smuggled_in_args PASSED   [ 90%]
+tests/test_defenses.py::test_tool_output_labeled_untrusted_data PASSED   [ 93%]
+tests/test_defenses.py::test_decline_path_still_works PASSED             [ 96%]
+tests/test_defenses.py::test_schema_rejects_path_traversal_directly PASSED [100%]
+
+============================== 33 passed in 0.57s ==============================

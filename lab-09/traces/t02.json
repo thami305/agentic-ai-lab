@@ -1,0 +1,59 @@
+{
+  "case_id": "t02",
+  "spans": [
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.008,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "error",
+      "name": "flaky_search",
+      "latency_ms": 0.006,
+      "tokens": 0,
+      "ok": true,
+      "detail": "RuntimeError: simulated tool outage"
+    },
+    {
+      "span": "tool",
+      "name": "flaky_search",
+      "latency_ms": 0.017,
+      "tokens": 0,
+      "ok": false,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.007,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "search_docs",
+      "latency_ms": 0.06,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.008,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "agent_run",
+    "flaky_search",
+    "search_docs",
+    "publish"
+  ]
+}

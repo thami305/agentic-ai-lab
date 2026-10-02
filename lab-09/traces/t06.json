@@ -1,0 +1,17 @@
+{
+  "case_id": "t06",
+  "spans": [
+    {
+      "span": "model",
+      "name": "ScriptedStub",
+      "latency_ms": 0.008,
+      "tokens": 720,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "agent_run",
+    "error"
+  ]
+}

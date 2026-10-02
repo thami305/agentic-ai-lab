@@ -1,0 +1,60 @@
+{
+  "case_id": "a04",
+  "spans": [
+    {
+      "span": "model",
+      "name": "OracleStub",
+      "latency_ms": 0.007,
+      "tokens": 1100,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "search_docs",
+      "latency_ms": 0.107,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "OracleStub",
+      "latency_ms": 0.008,
+      "tokens": 1100,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "get_passage",
+      "latency_ms": 0.004,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "tool",
+      "name": "get_passage",
+      "latency_ms": 0.003,
+      "tokens": 0,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "span": "model",
+      "name": "OracleStub",
+      "latency_ms": 0.071,
+      "tokens": 1100,
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "path": [
+    "agent_run",
+    "search_docs",
+    "get_passage",
+    "get_passage",
+    "publish"
+  ]
+}
