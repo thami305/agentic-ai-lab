@@ -92,11 +92,71 @@ def decline(reason: str) -> ModelResponse:
     return ModelResponse(kind="decline", decline=Decline(reason=reason))
 
 
+def _strictify(schema: dict[str, Any]) -> dict[str, Any]:
+    """Convert a Pydantic JSON schema to OpenAI strict-mode shape."""
+    schema = dict(schema)
+    if schema.get("type") == "object":
+        schema["additionalProperties"] = False
+        props = schema.get("properties", {})
+        schema["required"] = sorted(props.keys())
+        schema["properties"] = {k: _strictify(v) for k, v in props.items()}
+    for key in ("anyOf", "oneOf"):
+        if key in schema:
+            schema[key] = [_strictify(s) for s in schema[key]]
+    items = schema.get("items")
+    if isinstance(items, dict):
+        schema["items"] = _strictify(items)
+    return schema
+
+
+def final_answer_json_schema() -> dict[str, Any]:
+    """Strict JSON schema for the final answer.
+
+    OpenAI requires the root to be type: object, so the payload rides in an
+    envelope with a kind discriminator selecting Recommendation or Decline.
+    """
+    return {
+        "type": "object",
+        "properties": {
+            "kind": {
+                "type": "string",
+                "enum": ["recommendation", "decline"],
+                "description": "recommendation for an answerable request, decline otherwise.",
+            },
+            "answer": {"anyOf": [
+                _strictify(Recommendation.model_json_schema()),
+                _strictify(Decline.model_json_schema()),
+            ]},
+        },
+        "required": ["kind", "answer"],
+        "additionalProperties": False,
+    }
+
+
+def parse_final_answer(content: str, usage: dict[str, int] | None = None) -> ModelResponse:
+    """Parse a structured-output final answer envelope into a ModelResponse."""
+    usage = usage or {"prompt_tokens": 0, "completion_tokens": 0}
+    try:
+        answer = json.loads(content)["answer"]
+    except (json.JSONDecodeError, KeyError, TypeError) as exc:
+        raise ModelError(f"Final answer is not the expected JSON envelope: {exc}") from exc
+    for cls, kind in ((Recommendation, "final"), (Decline, "decline")):
+        try:
+            return ModelResponse(kind=kind, **{kind: cls.model_validate(answer)}, usage=usage)  # type: ignore[arg-type]
+        except ValidationError:
+            continue
+    raise ModelError("Final answer matches neither Recommendation nor Decline schema.")
+
+
 # ------------------------------------------------------------- OpenAI ---
 
 class OpenAIBackend(ModelBackend):
     """Real model via the OpenAI SDK. Requires `pip install openai`,
-    OPENAI_API_KEY set, and LAB_MODEL set to a current model id."""
+    OPENAI_API_KEY set, and LAB_MODEL set to a current model id.
+
+    Uses structured outputs so the final answer always validates against
+    the Recommendation/Decline schema; tool-call turns are unaffected.
+    """
 
     def __init__(self, model: str | None = None):
         self.model = model or os.environ.get("LAB_MODEL")
@@ -126,7 +186,10 @@ class OpenAIBackend(ModelBackend):
     def next(self) -> ModelResponse:
         resp = self._client().chat.completions.create(
             model=self.model, messages=self._messages,
-            tools=self._tools, tool_choice="auto")
+            tools=self._tools, tool_choice="auto",
+            response_format={"type": "json_schema", "json_schema": {
+                "name": "final_answer", "strict": True,
+                "schema": final_answer_json_schema()}})
         msg = resp.choices[0].message
         usage = {"prompt_tokens": (resp.usage.prompt_tokens if resp.usage else 0),
                  "completion_tokens": (resp.usage.completion_tokens if resp.usage else 0)}
@@ -140,12 +203,7 @@ class OpenAIBackend(ModelBackend):
                             for c in msg.tool_calls])
         content = msg.content or ""
         self._messages.append({"role": "assistant", "content": content})
-        for cls, kind in ((Recommendation, "final"), (Decline, "decline")):
-            try:
-                return ModelResponse(kind=kind, **{kind: cls.model_validate_json(content)}, usage=usage)  # type: ignore[arg-type]
-            except ValidationError:
-                continue
-        raise ModelError("Model returned text that matches neither Recommendation nor Decline schema.")
+        return parse_final_answer(content, usage)
 
     def observe_tool_results(self, results: list["ToolResult"]) -> None:
         for native, res in zip(self._pending, results):

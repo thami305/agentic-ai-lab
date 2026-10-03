@@ -63,7 +63,9 @@ def build_registry(db_path: str | Path, extra: list[ToolDef] | None = None) -> T
 
     def get_client(client_id: str) -> dict[str, Any]:
         with _connect(db_path) as conn:
-            row = conn.execute("SELECT * FROM clients WHERE id = ?", (client_id,)).fetchone()
+            row = conn.execute(
+                "SELECT * FROM clients WHERE LOWER(id) = LOWER(?)", (client_id,)
+            ).fetchone()
         if row is None:
             return {"ok": False, "error": "unknown_client",
                     "detail": f"No client with id '{client_id}'."}
@@ -73,7 +75,7 @@ def build_registry(db_path: str | Path, extra: list[ToolDef] | None = None) -> T
                    limit: int = 50) -> dict[str, Any]:
         clauses, params = [], []
         if client_id:
-            clauses.append("client_id = ?")
+            clauses.append("LOWER(client_id) = LOWER(?)")
             params.append(client_id)
         if stage:
             clauses.append("stage = ?")
@@ -90,7 +92,7 @@ def build_registry(db_path: str | Path, extra: list[ToolDef] | None = None) -> T
                          stage: str | None = None) -> dict[str, Any]:
         clauses, params = [], []
         if client_id:
-            clauses.append("client_id = ?")
+            clauses.append("LOWER(client_id) = LOWER(?)")
             params.append(client_id)
         if stage:
             clauses.append("stage = ?")
