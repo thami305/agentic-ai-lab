@@ -24,4 +24,4 @@ Teaching model: the model proposes, deterministic code decides.
 | lab-11 | Production-shaped service: API, job queue, idempotency, kill switch | 22 |
 | lab-12 | Capstone: Client Operations Copilot, packaged with evals and runbook | 19 |
 
-257 tests total, all deterministic, all passing.
+256 tests total, all deterministic, all passing.
